@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c8302a;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="youtube">
+      <path class="cls-1" d="M0,0v48h48V0H0ZM20.39,35.99V13.23l11.38,11.38-11.38,11.38Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+
+    #full-logo {
+        flex:1;
+
+        min-width: 200px;
+        min-height: 0;
+
+
+    }
+
+    #song-announcement {
+        flex:1;
+        
+        min-width: 200px;
+        min-height: 0;
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        transition: 0.25s linear;
+
+    }
+
+
+    .heading-img {
+        
+        min-width: 0;
+        min-height: 0;
+
+    }
+
+    #song-announcement *{
+        margin: auto;
+
+        transition: 0.25s linear;
+        
+
+    }
+
+    #song-announcement h2:hover {
+        background-color: var(--my-blue);
+        color:var(--my-white);
+    }
+
+

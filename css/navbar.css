@@ -1,0 +1,54 @@
+
+    #navbar {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 3;
+
+
+        background-color: var(--my-black);
+
+    }
+
+    #navbar li {
+        list-style: none;
+        width: 12vh;
+        max-width: 96px;
+
+        padding-top: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 1vw;
+        
+
+        display: inline-block;
+
+
+    }
+
+    #navbar li a img {
+
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation: rotation 10s linear infinite forwards;
+        animation-play-state: paused;
+        transition: all 1s ease-in-out;
+        
+
+        transform: scale(80%);
+
+    }
+
+    #navbar li a img:hover {
+        animation-play-state: running;
+        transform: scale(100%);
+    }
+
+    @keyframes rotation {
+        0% {transform:rotate(0deg);}
+        100% {transform:rotate(360deg);}
+    }

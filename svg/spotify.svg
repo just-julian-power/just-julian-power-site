@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.1 79.23">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+        letter-spacing: .13em;
+      }
+
+      .cls-2 {
+        fill: #1a1a18;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="spotify">
+      <text class="cls-1" transform="translate(15.64 10.2)"><tspan x="0" y="0">spotify</tspan></text>
+      <text class="cls-1" transform="translate(64.56 69.03) rotate(-180)"><tspan x="0" y="0">spotify</tspan></text>
+      <text class="cls-1" transform="translate(70.9 14.67) rotate(90)"><tspan x="0" y="0">spotify</tspan></text>
+      <text class="cls-1" transform="translate(10.2 65.59) rotate(-90)"><tspan x="0" y="0">spotify</tspan></text>
+      <g>
+        <path class="cls-2" d="M32.09,36.36c-.36-.25-.8-.32-1.24.08-.34.31-.43.87-.05,1.28.11.12.38.28.57.4,3.4,2.45,6.15,5.57,6.98,9.66.05.25.1.41.26.59.31.34.85.4,1.24.04.38-.35.39-.64.32-1.05-.97-4.66-4.14-8.25-8.08-11.01Z"/>
+        <path class="cls-2" d="M39.45,36.56c-1.61-1.75-2.96-2.73-4.36-3.6-.52-.32-1.02-.27-1.47.15-.45.41-.48,1.12-.07,1.57.17.19.33.25.57.4,4.16,2.62,7.15,7.13,8.01,11.2.06.23.1.46.3.68.42.46,1.11.48,1.57.06.37-.34.5-.71.39-1.24-.68-3.22-2.43-6.49-4.94-9.22Z"/>
+        <path class="cls-2" d="M15.34,16.06v48h48V16.06H15.34ZM49.25,50.04c-5.77,5.31-14.76,4.93-20.07-.84s-4.93-14.76.84-20.07c5.77-5.31,14.76-4.93,20.07.84s4.93,14.76-.84,20.07Z"/>
+        <path class="cls-2" d="M43.22,33.46c-1.66-1.81-3.4-3.28-5.2-4.36-.46-.28-1.11-.33-1.68.19-.56.52-.6,1.34-.09,1.9.19.2.43.33.61.44,4.16,2.58,8.67,8.34,9.64,12.99.06.29.13.48.34.69.47.51,1.31.6,1.88.07.5-.46.57-.92.45-1.42-.79-3.62-3.12-7.43-5.95-10.51Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

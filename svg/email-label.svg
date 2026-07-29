@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.92 79.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f5f2e8;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        letter-spacing: .03em;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-4 {
+        fill: #a7a9ac;
+      }
+
+      .cls-3 {
+        letter-spacing: .13em;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="email">
+      <text class="cls-2" transform="translate(19.68 10.2)"><tspan x="0" y="0">email</tspan></text>
+      <text class="cls-3" transform="translate(66.72 19.66) rotate(90)"><tspan x="0" y="0">email</tspan></text>
+      <text class="cls-3" transform="translate(10.2 60.61) rotate(-90)"><tspan x="0" y="0">email</tspan></text>
+      <text class="cls-2" transform="translate(54.91 69.07) rotate(-180)"><tspan x="0" y="0">email</tspan></text>
+      <g>
+        <rect class="cls-4" x="13.28" y="15.64" width="48" height="48"/>
+        <polyline class="cls-1" points="61.33 15.64 37.28 39.64 13.28 15.64"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.27 79.27">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .13em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-2 {
+        letter-spacing: .09em;
+      }
+
+      .cls-3 {
+        fill: #e8c018;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="yellow_insta" data-name="yellow insta">
+      <path class="cls-3" d="M15.34,16.12v48h48V16.12H15.34ZM39.34,48.12c-4.42,0-8-3.58-8-8s3.58-8,8-8,8,3.58,8,8-3.58,8-8,8ZM55.34,25.12c-.55,0-1-.45-1-1s.45-1,1-1,1,.45,1,1-.45,1-1,1Z"/>
+      <text class="cls-2" transform="translate(18.4 10.2)"><tspan x="0" y="0">bonus</tspan></text>
+      <text class="cls-1" transform="translate(69.07 21.85) rotate(90)"><tspan x="0" y="0">insta</tspan></text>
+      <text class="cls-1" transform="translate(10.2 57.82) rotate(-90)"><tspan x="0" y="0">insta</tspan></text>
+      <text class="cls-2" transform="translate(60.17 69.07) rotate(-180)"><tspan x="0" y="0">bonus</tspan></text>
+    </g>
+  </g>
+</svg>

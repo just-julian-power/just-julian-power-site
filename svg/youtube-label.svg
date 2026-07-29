@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.94 79.27">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .13em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-3 {
+        fill: #c8302a;
+      }
+
+      .cls-2 {
+        letter-spacing: .13em;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="youtube">
+      <path class="cls-3" d="M15.34,16.11v48h48V16.11H15.34ZM35.73,52.1v-22.76l11.38,11.38-11.38,11.38Z"/>
+      <text class="cls-1" transform="translate(27.13 10.2)"><tspan x="0" y="0">you</tspan></text>
+      <text class="cls-1" transform="translate(52.87 69.07) rotate(-180)"><tspan x="0" y="0">you</tspan></text>
+      <text class="cls-2" transform="translate(68.74 24.14) rotate(90)"><tspan x="0" y="0">tube</tspan></text>
+      <text class="cls-2" transform="translate(10.2 57.68) rotate(-90)"><tspan x="0" y="0">tube</tspan></text>
+    </g>
+  </g>
+</svg>

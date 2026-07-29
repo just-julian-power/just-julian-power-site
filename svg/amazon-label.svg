@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.27 79.27">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .13em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-3 {
+        fill: #1a1a18;
+      }
+
+      .cls-2 {
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="amazon">
+      <text class="cls-2" transform="translate(13.74 10.2)"><tspan x="0" y="0">amazon</tspan></text>
+      <text class="cls-1" transform="translate(69.07 19.58) rotate(90)"><tspan x="0" y="0">music</tspan></text>
+      <text class="cls-1" transform="translate(10.2 62.64) rotate(-90)"><tspan x="0" y="0">music</tspan></text>
+      <path class="cls-3" d="M15.34,16.11v48h48V16.11H15.34ZM51.51,38.95c-.54.7-4.91,4.7-12.24,4.7s-12.94-5.02-14.66-7.08c-.48-.54.07-.79.39-.58,5.14,3.12,13.17,8.26,26.13,2.13.53-.26.93.14.39.84ZM54.3,39.1c-.46,1.11-1.12,1.88-1.49,2.17-.39.32-.67.19-.46-.27.21-.46,1.35-3.26.89-3.86-.46-.58-2.6-.3-3.37-.22-.76.07-.91.14-.98-.02-.16-.4,1.52-1.09,2.63-1.23,1.1-.13,2.88-.06,3.23.4.26.36,0,1.9-.46,3.02Z"/>
+      <text class="cls-2" transform="translate(65.02 69.07) rotate(-180)"><tspan x="0" y="0">amazon</tspan></text>
+    </g>
+  </g>
+</svg>
