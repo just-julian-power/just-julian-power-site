@@ -8,18 +8,15 @@
 
     html {
 
-        scroll-snap-type: y mandatory;
-        scroll-behavior: smooth;
-
         background: var(--my-white);
-        /*
-        background-image: linear-gradient(rgb(224, 224, 224), .1em, transparent .1em), linear-gradient(90deg, rgb(224, 224, 224) .1em, transparent .1em);
-        background-size: 3em 3em;
-        */
+        
+
+        
     }
 
     body {
         justify-content: center;
+        margin-bottom: 10vh;
     }
 
     article {
@@ -30,6 +27,7 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+
     }
 
     .ex-link {
@@ -39,20 +37,8 @@
         margin-top: 1em;
         margin-bottom: 1em;
 
-        transition: 0.25s linear;
-        
-
     }
 
-    .ex-link:hover {
-        background-color: var(--my-black);
-    }
-    .ex-link h2{
-
-
-        transition: 0.25s linear;
-
-    }
     .ex-link img{
         display: inline;
         min-width: 0;
@@ -60,9 +46,18 @@
         width: 2em;
         margin-right: 1em;
     }
-    .ex-link h2:hover{
-        color:var(--my-white);
+
+    .link-text {
+        padding: 4px;
+        margin: 4px;
+        text-decoration: underline;
+        transition: 0.25s linear;
+    }
+
+    .link-text:hover{
         
+        color:var(--my-white);
+        background-color: var(--my-grey);
     }
 
     .panel {
@@ -71,11 +66,11 @@
         flex-wrap: wrap;
         
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         margin:auto;
 
 
-        scroll-snap-align: center;
+
 
         align-content: center;
         align-items: center;
@@ -88,7 +83,7 @@
     .panel *{
         margin: auto;
         margin: 10px;
-        max-height: 60vh;
+        max-height: 40vh;
     }
 
     * {

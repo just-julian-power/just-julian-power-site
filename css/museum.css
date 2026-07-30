@@ -44,10 +44,6 @@
     line-height: 1.5rem;
     font-size: 1.5rem;
 
-    transition: 0.25s linear;
+    
 
-}
-.card h1:hover {
-    background-color: var(--my-blue);
-    color: var(--my-white);
 }

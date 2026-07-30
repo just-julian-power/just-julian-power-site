@@ -18,10 +18,10 @@ const maxScrollTop = Math.max(0, totalContentHeight - viewportHeight);
 
 window.onscroll = function(ev) {
 
-    console.log(window.scrollY);
+    //console.log(window.scrollY);
 
     if ((window.innerHeight + Math.round(window.scrollY)) >= this.document.body.offsetHeight){
-        console.log('reached bottom');
+        //console.log('reached bottom');
         down_arrow.style.opacity = 0.2;
     }
     else {
@@ -29,7 +29,7 @@ window.onscroll = function(ev) {
     }
 
     if(Math.round(window.scrollY) <= 100){
-        console.log('reached top');
+        //console.log('reached top');
         up_arrow.style.opacity = 0.2;
     }
     else {
