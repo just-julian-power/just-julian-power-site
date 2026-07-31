@@ -102,6 +102,12 @@
         }
     }
 
+    code {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8rem;
+        text-wrap-mode: wrap;
+
+    }
     h1 {
         font-family: Montserrat;
         font-size: 2rem;
@@ -115,6 +121,7 @@
         font-size: 1.5rem;
         font-weight: 400;
         color: var(--my-grey);
+        margin-top: 1em;
 
 
     }
