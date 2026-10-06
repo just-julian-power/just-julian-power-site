@@ -1,0 +1,50 @@
+.player-card button {
+
+    background-color: var(--my-black);
+    color: var(--my-white);
+    padding: 8px;
+
+}
+
+.player-card h1{
+    text-align: center;
+}
+
+
+#looper-container {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    justify-items:center;
+
+    
+}
+
+.button-set {
+
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin:auto;
+    width: 100%;
+
+}
+
+.button-set button {
+    margin: 8px;
+    transition: 0.25s linear;
+    font-family: "Montserrat";
+    
+}
+
+.button-set button:hover {
+    background-color: var(--my-grey);
+    font-weight: 800;
+
+}
+
+.button-set label {
+    font-family: "Montserrat";
+    margin: 8px;
+}

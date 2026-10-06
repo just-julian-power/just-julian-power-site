@@ -1,133 +1,84 @@
 
     @import url(/css/variables.css);
 
-    @font-face {
-        font-family: "Montserrat";
-        src: url(/ttf/Montserrat.ttf);
-    }
-
-    html {
-
-        background: var(--my-white);
-        
-
-        
-    }
 
     body {
-        justify-content: center;
-        margin-bottom: 10vh;
-    }
+        
+        
+        background: var(--my-black);
 
-    article {
-
-        margin-top: 15vh;
-        margin-bottom: 15vh;
         max-width: 1080px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    .ex-link {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-
-    }
-
-    .ex-link img{
-        display: inline;
-        min-width: 0;
-        min-height: 0;
-        width: 2em;
-        margin-right: 1em;
-    }
-
-    .link-text {
-        padding: 4px;
-        margin: 4px;
-        text-decoration: underline;
-        transition: 0.25s linear;
-    }
-
-    .link-text:hover{
-        
-        color:var(--my-white);
-        background-color: var(--my-grey);
-    }
-
-    .panel {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-        width: 100vw;
-        height: 80vh;
-        margin:auto;
-
-
-
-
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-
-
-    }
-
-    .panel *{
-        margin: auto;
-        margin: 10px;
-        max-height: 40vh;
+        width: 95%;
+        margin:auto
     }
 
     * {
-
+        color: var(--my-white);
         margin: 0;
         padding: 0;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
 
-        text-decoration: none;
+    article {
+        border-style: solid;
+        border-color: var(--my-white);
+        border-width: 1px;
+        padding: 8px;
+    }
+
+    a {
+        font-weight: bold;
+    }
+    a:hover {
+        background-color: var(--my-white);
         color: var(--my-black);
     }
 
-    @media screen and (max-width: 800px){
-        :root {
-            font-size: 14px;
-        }
+    ul {
+        list-style-position: inside;
     }
-
-    code {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.8rem;
-        text-wrap-mode: wrap;
-
-    }
-    h1 {
-        font-family: Montserrat;
-        font-size: 2rem;
-        font-weight: 800;
-        margin-bottom: 0.5em;
-    }
-
-
-    h2 {
-        font-family: Montserrat;
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: var(--my-grey);
-        margin-top: 1em;
-
-
-    }
-    p {
-        margin-bottom: 1em;
-       
+ 
+    ul.link-list {
+        list-style: none;
         
     }
 
+    ul.link-list li {
+
+        width: 100%;
+        margin: 16px;
+        background-color: var(--my-white);
+        padding: 2px;
+        
+        
+    }
+
+    ul.link-list li.expired {
+        background-color: var(--my-grey);
+    }
+
+    ul.link-list li * {
+        color: var(--my-black);
+    }
+
+    ul.link-list li a {
+        color: var(--my-black);
+
+        width: 100%;
+    }
+
+    ul.link-list li a:hover {
+        background-color: var(--my-black);
+        color: var(--my-white);
+    }
+
+    
+    code {
+        font-family: monospace;
+        text-wrap: wrap;
+        font-size: 0.8rem;
+    }
+
+    h1,h2 {
+        margin-top: 32px;
+    }
