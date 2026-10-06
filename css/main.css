@@ -28,6 +28,7 @@
 
     a {
         font-weight: bold;
+        margin: 0px 8px;
     }
     a:hover {
         background-color: var(--my-white);
